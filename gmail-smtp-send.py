@@ -4,11 +4,12 @@ from email.mime.text import MIMEText
 import datetime
 
 now = datetime.datetime.now()
+mail_content = input("Enter something to send:")
 
 # email content placeholder
 
 content = '--------------<br>'
-content += ('Hello Gmail')
+content += mail_content
 content += ('<br>--------------<br>')
 content +=('<br><br>End of Message')
 
